@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-h1{
-    font-family: 'Anton', sans-serif;
-    color: rgb(255, 0, 0);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 微軟正黑體;
 }
+#navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 0 5px 5px #64646450;
+    padding: 20px 0 ;
+     
+    .social {
+    
+        img {
+            filter: invert(9%) sepia(11%) saturate(6%) hue-rotate(336deg) brightness(100%) contrast(86%);
+            transition: 0.2s;
+
+            &:hover {
+                filter: invert(44%) sepia(34%) saturate(878%) hue-rotate(256deg) brightness(90%) contrast(88%);
+            }
+        }
+    }
+} 

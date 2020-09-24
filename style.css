@@ -1,6 +1,32 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-h1 {
-  font-family: 'Anton', sans-serif;
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 微軟正黑體;
+}
+
+#navigation {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-shadow: 0 5px 5px #64646450;
+          box-shadow: 0 5px 5px #64646450;
+  padding: 20px 0;
+}
+
+#navigation .social img {
+  -webkit-filter: invert(9%) sepia(11%) saturate(6%) hue-rotate(336deg) brightness(100%) contrast(86%);
+          filter: invert(9%) sepia(11%) saturate(6%) hue-rotate(336deg) brightness(100%) contrast(86%);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#navigation .social img:hover {
+  -webkit-filter: invert(44%) sepia(34%) saturate(878%) hue-rotate(256deg) brightness(90%) contrast(88%);
+          filter: invert(44%) sepia(34%) saturate(878%) hue-rotate(256deg) brightness(90%) contrast(88%);
 }
 /*# sourceMappingURL=style.css.map */
