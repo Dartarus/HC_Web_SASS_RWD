@@ -1,11 +1,12 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 微軟正黑體;
+  color: #252525;
 }
 
 #navigation {
@@ -15,7 +16,46 @@
       grid-template-columns: 1fr 1fr 1fr;
   -webkit-box-shadow: 0 5px 5px #64646450;
           box-shadow: 0 5px 5px #64646450;
-  padding: 20px 0;
+  padding: 20px 120px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  width: 100%;
+  background: white;
+}
+
+#navigation .logo {
+  font-family: "Bebas Neue", cursive;
+  font-size: 42px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+#navigation .logo:hover {
+  color: #ae57a4;
+}
+
+#navigation .link {
+  text-align: center;
+}
+
+#navigation .link a {
+  padding: 30px 30px 30px 40px;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  letter-spacing: 10px;
+}
+
+#navigation .link a:hover {
+  color: #ae57a4;
+}
+
+#navigation .social {
+  text-align: right;
 }
 
 #navigation .social img {
@@ -23,10 +63,55 @@
           filter: invert(9%) sepia(11%) saturate(6%) hue-rotate(336deg) brightness(100%) contrast(86%);
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  width: 32px;
+  margin-left: 30px;
 }
 
 #navigation .social img:hover {
   -webkit-filter: invert(44%) sepia(34%) saturate(878%) hue-rotate(256deg) brightness(90%) contrast(88%);
           filter: invert(44%) sepia(34%) saturate(878%) hue-rotate(256deg) brightness(90%) contrast(88%);
+}
+
+#banner {
+  width: 100%;
+  height: 100vh;
+  background: #eee;
+}
+
+#about {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+h2 {
+  font-size: 200px;
+  letter-spacing: 30px;
+  padding-left: 20px;
+  font-family: "Bebas Neue", cursive;
+}
+
+p {
+  padding: 30px;
+  margin-bottom: 50px;
+  letter-spacing: 5px;
+}
+
+.title {
+  font-family: 36px;
+  padding: 100px;
+}
+
+.button-box {
+  border: 2px solid #252525;
+  padding: 10px 60px;
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.button-box:hover {
+  background: #252525;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
