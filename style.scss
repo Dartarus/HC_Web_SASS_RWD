@@ -3,6 +3,7 @@
 // 主色與次要色
 $color-main: #252525;
 $color-sub: #ae57a4;
+$color-bg-gray: #f9f9f9;
 
 // 文字大小：最大
 $font-size-big: 36px;
@@ -13,7 +14,7 @@ $font-family-main: "Bebas Neue", cursive;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:微軟正黑體;
+    font-family: 微軟正黑體;
     color: $color-main;
 }
 
@@ -30,7 +31,7 @@ $font-family-main: "Bebas Neue", cursive;
     background: white;
 
     .logo {
-        font-family:$font-family-main;
+        font-family: $font-family-main;
         font-size: 42px;
         transition: 0.3s;
         text-decoration: none;
@@ -82,36 +83,60 @@ $font-family-main: "Bebas Neue", cursive;
     width: 100%;
     height: 100vh;
     text-align: center;
-}
-h2{
-    font-size: 200px;
-    letter-spacing: 30px;
-    padding-left: 20px;
-    font-family: $font-family-main;
-    // margin-top: 30px;
+
+    h2 {
+        font-size: 200px;
+        letter-spacing: 30px;
+        padding-left: 20px;
+        font-family: $font-family-main;
+        // margin-top: 30px;
+    }
 }
 
-p{
+p {
     padding: 30px;
     margin-bottom: 50px;
     letter-spacing: 5px;
 }
 
 // 標題
-.title{
+.title {
     font-family: $font-size-big;
     padding: 100px;
+    text-align: center;
 }
 
 // 按鈕：盒型
-.button-box{
+.button-box {
     border: 2px solid $color-main;
     padding: 10px 60px;
     text-decoration: none;
     transition: 0.3s;
 
-    &:hover{
-        background:$color-main;
-        color:white;
+    &:hover {
+        background: $color-main;
+        color: white;
+    }
+}
+
+// 作品集
+#works {
+    height: 100vh;
+    background: $color-bg-gray;
+    #work-box {
+        width: 1200px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+        grid-gap: 20px 25px;
+
+        .work-box-small {
+            image {
+                width: 100%;
+                display: block;
+                height: 300px;
+                background: black;
+            }
+        }
     }
 }
