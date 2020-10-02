@@ -25,7 +25,7 @@
   background: white;
 }
 
-#navigation .logo {
+.logo {
   font-family: "Bebas Neue", cursive;
   font-size: 42px;
   -webkit-transition: 0.3s;
@@ -34,15 +34,15 @@
   letter-spacing: 2px;
 }
 
-#navigation .logo:hover {
+.logo:hover {
   color: #ae57a4;
 }
 
-#navigation .link {
+.link {
   text-align: center;
 }
 
-#navigation .link a {
+.link a {
   padding: 30px 30px 30px 40px;
   text-decoration: none;
   -webkit-transition: 0.3s;
@@ -50,15 +50,15 @@
   letter-spacing: 10px;
 }
 
-#navigation .link a:hover {
+.link a:hover {
   color: #ae57a4;
 }
 
-#navigation .social {
+.social {
   text-align: right;
 }
 
-#navigation .social img {
+.social img {
   -webkit-filter: invert(9%) sepia(11%) saturate(6%) hue-rotate(336deg) brightness(100%) contrast(86%);
           filter: invert(9%) sepia(11%) saturate(6%) hue-rotate(336deg) brightness(100%) contrast(86%);
   -webkit-transition: 0.2s;
@@ -67,7 +67,7 @@
   margin-left: 30px;
 }
 
-#navigation .social img:hover {
+.social img:hover {
   -webkit-filter: invert(44%) sepia(34%) saturate(878%) hue-rotate(256deg) brightness(90%) contrast(88%);
           filter: invert(44%) sepia(34%) saturate(878%) hue-rotate(256deg) brightness(90%) contrast(88%);
 }
@@ -82,24 +82,26 @@
   width: 100%;
   height: 100vh;
   text-align: center;
+  padding: 40px;
 }
 
-h2 {
+#about h2 {
   font-size: 200px;
   letter-spacing: 30px;
   padding-left: 20px;
   font-family: "Bebas Neue", cursive;
+  margin-bottom: 30px;
 }
 
-p {
-  padding: 30px;
-  margin-bottom: 50px;
+#about p {
+  margin-bottom: 100px;
   letter-spacing: 5px;
 }
 
 .title {
   font-family: 36px;
   padding: 100px;
+  text-align: center;
 }
 
 .button-box {
@@ -113,5 +115,80 @@ p {
 .button-box:hover {
   background: #252525;
   color: white;
+}
+
+.button-div {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#works {
+  height: 100vh;
+  background: #f9f9f9;
+}
+
+#works #work-box {
+  width: 1200px;
+  display: -ms-grid;
+  display: grid;
+  margin: 0 auto;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (340px)[2];
+      grid-template-rows: repeat(2, 340px);
+  grid-gap: 20px 35px;
+}
+
+#works #work-box .work-box-small img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  background: #eee;
+}
+
+#works #work-box .work-box-small h2 {
+  text-align: center;
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+}
+
+#works #work-box .work-box-small span {
+  display: inline-block;
+  border: 1.5px solid #000;
+  border-radius: 30px;
+  padding: 3px 12px;
+  margin-top: 12px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+footer {
+  background: #252525;
+  padding: 90px 0;
+  text-align: center;
+}
+
+footer .logo {
+  color: #cdcdcd;
+}
+
+footer .link a {
+  color: #cdcdcd;
+}
+
+footer .social {
+  text-align: center;
+}
+
+footer .social img {
+  -webkit-filter: invert(86%) sepia(0%) saturate(0%) hue-rotate(73deg) brightness(98%) contrast(91%);
+          filter: invert(86%) sepia(0%) saturate(0%) hue-rotate(73deg) brightness(98%) contrast(91%);
+  margin: 30px 20px;
+}
+
+footer #copyright {
+  color: #cdcdcd;
+  font-size: 8px;
+  margin-top: 50px;
 }
 /*# sourceMappingURL=style.css.map */
