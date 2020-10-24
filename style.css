@@ -131,17 +131,36 @@
   width: 100%;
   height: 100vh;
   background: #eee;
+  overflow: hidden;
+}
+
+#banner .dots {
+  bottom: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+  #banner {
+    height: 100%;
+  }
+  #banner .slick-track {
+    height: 900px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #banner .slick-track {
+    height: 500px;
+  }
 }
 
 #about {
   width: 100%;
   height: 100vh;
   text-align: center;
-  margin-top: 100px;
 }
 
 #about h2 {
-  font-size: 250px;
+  font-size: 420px;
   font-family: "Bebas Neue", cursive;
   letter-spacing: 30px;
   padding-left: 30px;
@@ -281,16 +300,9 @@ footer .social {
 }
 
 footer .social img {
-  -webkit-filter: invert(100%) sepia(0%) saturate(7495%) hue-rotate(289deg) brightness(99%) contrast(101%);
-          filter: invert(100%) sepia(0%) saturate(7495%) hue-rotate(289deg) brightness(99%) contrast(101%);
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-filter: invert(86%) sepia(0%) saturate(0%) hue-rotate(73deg) brightness(98%) contrast(91%);
+          filter: invert(86%) sepia(0%) saturate(0%) hue-rotate(73deg) brightness(98%) contrast(91%);
   margin: 30px 20px;
-}
-
-footer .social img:hover {
-  -webkit-filter: invert(47%) sepia(14%) saturate(2129%) hue-rotate(256deg) brightness(87%) contrast(85%);
-          filter: invert(47%) sepia(14%) saturate(2129%) hue-rotate(256deg) brightness(87%) contrast(85%);
 }
 
 footer #copyright {
@@ -305,5 +317,17 @@ footer #copyright {
   letter-spacing: 3px;
   padding-left: 3px;
   font-size: 16px;
+}
+
+#arrow {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background: #eee;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 /*# sourceMappingURL=style.css.map */
