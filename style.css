@@ -117,8 +117,8 @@
 }
 
 .social img:hover {
-  -webkit-filter: invert(13%) sepia(0%) saturate(1%) hue-rotate(158deg) brightness(90%) contrast(93%);
-          filter: invert(13%) sepia(0%) saturate(1%) hue-rotate(158deg) brightness(90%) contrast(93%);
+  -webkit-filter: invert(22%) sepia(86%) saturate(6235%) hue-rotate(268deg) brightness(103%) contrast(103%);
+          filter: invert(22%) sepia(86%) saturate(6235%) hue-rotate(268deg) brightness(103%) contrast(103%);
 }
 
 @media screen and (max-width: 767px) {
@@ -288,7 +288,7 @@ footer {
 }
 
 footer .logo {
-  color: #9524ff;
+  color: #cdcdcd;
 }
 
 footer .link a {
@@ -306,13 +306,13 @@ footer .social img {
 }
 
 footer #copyright {
-  color: #9524ff;
+  color: #cdcdcd;
   font-size: 8px;
   margin-top: 50px;
 }
 
 .logo-small {
-  color: #9524ff;
+  color: #cdcdcd;
   font-family: "Bebas Neue", cursive;
   letter-spacing: 3px;
   padding-left: 3px;

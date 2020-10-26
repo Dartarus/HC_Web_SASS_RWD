@@ -118,7 +118,7 @@ $mobile: 767px;
         margin-left: 30px;
 
         &:hover {
-            filter: invert(13%) sepia(0%) saturate(1%) hue-rotate(158deg) brightness(90%) contrast(93%);
+            filter: invert(22%) sepia(86%) saturate(6235%) hue-rotate(268deg) brightness(103%) contrast(103%);
         }
 
         // 手機
@@ -289,7 +289,7 @@ footer {
     text-align: center;
 
     .logo {
-        color: $color-sub;
+        color: $color-white;
     }
 
     .link {
@@ -308,7 +308,7 @@ footer {
     }
 
     #copyright {
-        color: $color-sub;
+        color: $color-white;
         font-size: 8px;
         margin-top: 50px;
     }
@@ -316,7 +316,7 @@ footer {
 
 // 小的 LOGO
 .logo-small {
-    color: $color-sub;
+    color: $color-white;
     font-family: $font-family-main;
     letter-spacing: 3px;
     padding-left: 3px;
