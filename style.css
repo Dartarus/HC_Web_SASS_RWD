@@ -138,29 +138,15 @@
   bottom: 60px;
 }
 
-@media screen and (max-width: 1024px) {
-  #banner {
-    height: 100%;
-  }
-  #banner .slick-track {
-    height: 900px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  #banner .slick-track {
-    height: 500px;
-  }
-}
-
-#about {
+#banner #about {
   width: 100%;
   height: 100vh;
   text-align: center;
+  margin-top: 100px;
 }
 
-#about h2 {
-  font-size: 420px;
+#banner #about h2 {
+  font-size: 150px;
   font-family: "Bebas Neue", cursive;
   letter-spacing: 30px;
   padding-left: 30px;
@@ -168,13 +154,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-  #about h2 {
+  #banner #about h2 {
     margin-top: 200px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  #about h2 {
+  #banner #about h2 {
     font-size: 64px;
     letter-spacing: 10px;
     padding-left: 10px;
@@ -182,18 +168,18 @@
   }
 }
 
-#about p {
+#banner #about p {
   padding: 30px;
   margin-bottom: 50px;
 }
 
-.title {
+#banner .title {
   font-size: 36px;
   padding: 35px;
   text-align: center;
 }
 
-.button-box {
+#banner .button-box {
   padding: 10px 60px;
   border: 2px solid #252525;
   text-decoration: none;
@@ -201,36 +187,36 @@
   transition: 0.3s;
 }
 
-.button-box:hover {
+#banner .button-box:hover {
   background: #252525;
   color: white;
 }
 
-.button-div {
+#banner .button-div {
   text-align: center;
   margin-top: 50px;
 }
 
-#works {
+#banner #works {
   height: 100vh;
   background: #f9f9f9;
 }
 
 @media screen and (max-width: 1024px) {
-  #works {
+  #banner #works {
     height: auto;
     padding-bottom: 100px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  #works {
+  #banner #works {
     height: auto;
     padding-bottom: 100px;
   }
 }
 
-#works #work-box {
+#banner #works #work-box {
   width: 1200px;
   display: -ms-grid;
   display: grid;
@@ -243,7 +229,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  #works #work-box {
+  #banner #works #work-box {
     width: 100%;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
@@ -252,26 +238,26 @@
 }
 
 @media screen and (max-width: 767px) {
-  #works #work-box {
+  #banner #works #work-box {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
 }
 
-#works #work-box .work-box-small img {
+#banner #works #work-box .work-box-small img {
   display: block;
   width: 100%;
   height: 300px;
   background: #eee;
 }
 
-#works #work-box .work-box-small h2 {
+#banner #works #work-box .work-box-small h2 {
   text-align: center;
   -webkit-transform: translateY(-30px);
           transform: translateY(-30px);
 }
 
-#works #work-box .work-box-small span {
+#banner #works #work-box .work-box-small span {
   display: inline-block;
   border: 1.5px solid #000;
   border-radius: 30px;
@@ -281,37 +267,44 @@
   font-size: 12px;
 }
 
-footer {
+#banner footer {
   background: #252525;
   padding: 90px 0;
   text-align: center;
 }
 
-footer .logo {
+#banner footer .logo {
   color: #cdcdcd;
 }
 
-footer .link a {
+#banner footer .link a {
   color: #cdcdcd;
 }
 
-footer .social {
+#banner footer .social {
   text-align: center;
 }
 
-footer .social img {
-  -webkit-filter: invert(86%) sepia(0%) saturate(0%) hue-rotate(73deg) brightness(98%) contrast(91%);
-          filter: invert(86%) sepia(0%) saturate(0%) hue-rotate(73deg) brightness(98%) contrast(91%);
+#banner footer .social img {
+  -webkit-filter: invert(100%) sepia(0%) saturate(7495%) hue-rotate(289deg) brightness(99%) contrast(101%);
+          filter: invert(100%) sepia(0%) saturate(7495%) hue-rotate(289deg) brightness(99%) contrast(101%);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   margin: 30px 20px;
 }
 
-footer #copyright {
+#banner footer .social img:hover {
+  -webkit-filter: invert(47%) sepia(14%) saturate(2129%) hue-rotate(256deg) brightness(87%) contrast(85%);
+          filter: invert(47%) sepia(14%) saturate(2129%) hue-rotate(256deg) brightness(87%) contrast(85%);
+}
+
+#banner footer #copyright {
   color: #cdcdcd;
   font-size: 8px;
   margin-top: 50px;
 }
 
-.logo-small {
+#banner .logo-small {
   color: #cdcdcd;
   font-family: "Bebas Neue", cursive;
   letter-spacing: 3px;
