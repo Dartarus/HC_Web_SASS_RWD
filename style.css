@@ -76,7 +76,7 @@
 }
 
 .logo:hover {
-  color: #9F35FF;
+  color: #9524ff;
 }
 
 .link {
@@ -93,7 +93,7 @@
 }
 
 .link a:hover {
-  color: #9F35FF;
+  color: #9524ff;
 }
 
 @media screen and (max-width: 1024px) {
@@ -117,8 +117,8 @@
 }
 
 .social img:hover {
-  -webkit-filter: invert(63%) sepia(8%) saturate(2974%) hue-rotate(177deg) brightness(105%) contrast(102%);
-          filter: invert(63%) sepia(8%) saturate(2974%) hue-rotate(177deg) brightness(105%) contrast(102%);
+  -webkit-filter: invert(13%) sepia(0%) saturate(1%) hue-rotate(158deg) brightness(90%) contrast(93%);
+          filter: invert(13%) sepia(0%) saturate(1%) hue-rotate(158deg) brightness(90%) contrast(93%);
 }
 
 @media screen and (max-width: 767px) {
@@ -288,7 +288,7 @@ footer {
 }
 
 footer .logo {
-  color: #cdcdcd;
+  color: #9524ff;
 }
 
 footer .link a {
@@ -306,13 +306,13 @@ footer .social img {
 }
 
 footer #copyright {
-  color: #cdcdcd;
+  color: #9524ff;
   font-size: 8px;
   margin-top: 50px;
 }
 
 .logo-small {
-  color: #cdcdcd;
+  color: #9524ff;
   font-family: "Bebas Neue", cursive;
   letter-spacing: 3px;
   padding-left: 3px;
