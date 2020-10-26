@@ -76,7 +76,7 @@
 }
 
 .logo:hover {
-  color: #6eb3ff;
+  color: #9F35FF;
 }
 
 .link {
@@ -93,7 +93,7 @@
 }
 
 .link a:hover {
-  color: #6eb3ff;
+  color: #9F35FF;
 }
 
 @media screen and (max-width: 1024px) {
