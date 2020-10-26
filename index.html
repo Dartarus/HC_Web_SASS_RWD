@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Document</title>
+    <title>Dartarus</title>
+
     <!--  Slick CDN  -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
@@ -17,13 +18,13 @@
     <!-- 導覽列 -->
     <nav id="navigation">
         <div>
-            <a href="./index.html" class="logo">{Dartarus}</a>
+            <a href="./" class="logo">{Dartarus}</a>
         </div>
         <img src="./img/icon-menu.png" alt="選單" id="menu">
         <div class="link">
-            <a href="">關於我</a>
-            <a href="">作品集</a>
-            <a href="">聯絡我</a>
+            <a href="./about/">關於我</a>
+            <a href="./works/">作品集</a>
+            <a href="./contact/">聯絡我</a>
         </div>
         <div class="social">
             <a href=""><img src="./img/icon-yt.png" alt="YOUTUBE"></a>
@@ -44,72 +45,72 @@
 
     <!-- 關於我 -->
     <section id="about">
-        <h1 class="title" data-aos="slide-right" data-aos-duration="1000" data-aos-offset="300" data-aos-once="true">關於我
+        <h1 class="title" data-aos="slide-right" data-aos-duration="1000" data-aos-offset="200" data-aos-once="true">關於我
         </h1>
         <!-- data-aos 動畫 -->
-        <!-- data-aos-offset 位移:往上為正 -->
-        <!-- data-aos-duration 持續時間 毫秒 0-3000 -->
+        <!-- data-aos-offset 位移：往上為正 -->
+        <!-- data-aos-delay 延遲 -->
+        <!-- data-aos-duration 持續時間：毫秒 0 - 3000 -->
         <!-- data-aos-easing 緩動 -->
         <!-- data-aos-mirror 雙向 true 允許雙向 false 不允許 -->
         <!-- data-aos-once 播放一次 true 一次 false 不限次數 -->
-        <h2 data-aos="flip-right" data-aos-offset="600" data-aos-duration="3000" data-aos-easing="ease-in-sine"
-            data-aos-mirror="false" data-aos-once="true">{Dartarus}
-        </h2>
-        <p>一個菜鳥攝影/網頁前端設計師/平面設計師/ACG中二病患者。 </p>
+        <h2 data-aos="fade" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-out-sine"
+            data-aos-mirror="false" data-aos-once="true">{Dartarus}</h2>
+        <p>一個菜鳥攝影/網頁前端設計師/平面設計師/ACG中二病患者。</p>
         <a href="" class="button-box">關於我</a>
     </section>
 
- <!-- 作品集 -->
- <section id="works">
-    <h1 class="title" data-aos="slide-right" data-aos-duration="1000" data-aos-offset="200" data-aos-once="true">作品集
-    </h1>
-    <div id="work-box">
-        <div class="work-box-small" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1000"
-            data-aos-once="true">
-            <img src="" alt="">
-            <span>類別</span>
-            <h2>作品名稱</h2>
+    <!-- 作品集 -->
+    <section id="works">
+        <h1 class="title" data-aos="slide-right" data-aos-duration="1000" data-aos-offset="200" data-aos-once="true">作品集
+        </h1>
+        <div id="work-box">
+            <div class="work-box-small" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1000"
+                data-aos-once="true">
+                <img src="" alt="">
+                <span>類別</span>
+                <h2>作品名稱</h2>
+            </div>
+            <div class="work-box-small" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1000"
+                data-aos-once="true" data-aos-delay="200">
+                <img src="" alt="">
+                <span>類別</span>
+                <h2>作品名稱</h2>
+            </div>
+            <div class="work-box-small" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1000"
+                data-aos-once="true" data-aos-delay="400">
+                <img src="" alt="">
+                <span>類別</span>
+                <h2>作品名稱</h2>
+            </div>
+            <div class="work-box-small" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1000"
+                data-aos-once="true">
+                <img src="" alt="">
+                <span>類別</span>
+                <h2>作品名稱</h2>
+            </div>
+            <div class="work-box-small" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1000"
+                data-aos-once="true" data-aos-delay="200">
+                <img src="" alt="">
+                <span>類別</span>
+                <h2>作品名稱</h2>
+            </div>
+            <div class="work-box-small" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1000"
+                data-aos-once="true" data-aos-delay="400">
+                <img src="" alt="">
+                <span>類別</span>
+                <h2>作品名稱</h2>
+            </div>
         </div>
-        <div class="work-box-small" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1000"
-            data-aos-once="true" data-aos-delay="200">
-            <img src="" alt="">
-            <span>類別</span>
-            <h2>作品名稱</h2>
+        <div class="button-div">
+            <a href="" class="button-box">作品集</a>
         </div>
-        <div class="work-box-small" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1000"
-            data-aos-once="true" data-aos-delay="400">
-            <img src="" alt="">
-            <span>類別</span>
-            <h2>作品名稱</h2>
-        </div>
-        <div class="work-box-small" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1000"
-            data-aos-once="true">
-            <img src="" alt="">
-            <span>類別</span>
-            <h2>作品名稱</h2>
-        </div>
-        <div class="work-box-small" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1000"
-            data-aos-once="true" data-aos-delay="200">
-            <img src="" alt="">
-            <span>類別</span>
-            <h2>作品名稱</h2>
-        </div>
-        <div class="work-box-small" data-aos="zoom-in" data-aos-offset="350" data-aos-duration="1000"
-            data-aos-once="true" data-aos-delay="400">
-            <img src="" alt="">
-            <span>類別</span>
-            <h2>作品名稱</h2>
-        </div>
-    </div>
-    <div class="button-div">
-        <a href="" class="button-box">作品集</a>
-    </div>
-</section>
+    </section>
 
     <!-- 頁尾 -->
     <footer>
         <div>
-            <a href="./index.html" class="logo" data-aos="fade-down" data-aos-duration="1000"
+            <a href="./" class="logo" data-aos="fade-down" data-aos-duration="1000"
                 data-aos-once="true">{Dartarus}</a>
         </div>
         <div class="social">
@@ -119,17 +120,18 @@
             <a href=""><img src="./img/icon-email.png" alt="E-Mail"></a>
         </div>
         <div class="link">
-            <a href="">關於我</a>
-            <a href="">作品集</a>
-            <a href="">聯絡我</a>
+            <a href="./about/">關於我</a>
+            <a href="./works/">作品集</a>
+            <a href="./contact/">聯絡我</a>
         </div>
         <div id="copyright">
-            Copyright &copy; 2010 - 2020 <span class="logo-small">{Dartarus}</span> All rights reserved
+            Copyright &copy; 2010 - 2020 <span class="logo-small">{D}</span> All rights reserved
         </div>
     </footer>
 
     <!-- 返回頂端按鈕 -->
     <img src="./img/arrow.png" alt="返回頂端" id="arrow" data-gte-target="top" data-gte-offset="0">
+
     <!-- 前往指定元素 CDN -->
     <script src="https://kid421.github.io/Web_JavaScript_GoToElement/goToElement.js"></script>
     <!--  jQuery CDN  -->
